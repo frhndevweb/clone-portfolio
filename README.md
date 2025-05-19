@@ -60,7 +60,7 @@ Website ini merupakan _clone_ dari project utama yang dapat diakses di:
 1. Clone repositori ini:
 
    ```bash
-   git clone https://github.com/username/portfolio-farhan-hanafi.git
+   git clone https://github.com/frhndevweb/clone-portfolio.git
    ```
 
 2. Buka `index.html` di browser favoritmu.
