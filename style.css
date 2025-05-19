@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #1e1e2f;
+    color: #e2e8f0;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #6c63ff 0%, #8a74f9 100%);
+}
+
+.skill-bar {
+    height: 8px;
+    border-radius: 4px;
+    background-color: #2c2c3a;
+}
+
+.skill-progress {
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #6c63ff 0%, #8a74f9 100%);
+    transition: width 1s ease-in-out;
+}
+
+.timeline-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 11px;
+    top: 24px;
+    height: calc(100% - 24px);
+    width: 2px;
+    background-color: #3a3a4d;
+}
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #2c2c3a;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+    position: relative;
+    color: #cbd5e0;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #8a74f9;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #8a74f9;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.active::after {
+    width: 100%;
+}

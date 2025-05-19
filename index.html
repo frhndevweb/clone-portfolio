@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhan Hanafi | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/favico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/favico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/favico/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="src/favico/android-chrome-192x192.png">
+    <link rel="icon" href="image/png" sizes="512x512" href="src/favico/android-chrome-512x512.png">
+    <link rel="icon" href="image/png" href="favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <meta property="og:title" content="Portfolio | Farhan Hanafi">
+    <meta property="og:description" content="Portofolio digital Hannafi — pecinta coding, desain elegan, dan ide-ide kreatif. Yuk, kenalan lewat karya-karyanya!">
+    <meta property="og:image" content="https://hanafiweb.netlify.app/src/profil.png">
+    <meta property="og:url" content="https://hanafiweb.netlify.app">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="keywords" content="Hanafi, hanafiweb, Hanafiweb, web development, coding, HTML, CSS, JavaScript, portfolio, belajar coding">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50" data-aos="fade-down">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-indigo-600">FH</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="md:hidden focus:outline-none" id="menu-toggle">
+                <i class="fas fa-bars text-2xl text-indigo-600"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="hidden md:hidden bg-white w-full px-6 py-3" id="mobile-menu">
+        <div class="flex flex-col space-y-4">
+            <a href="#home" class="nav-link active" data-aos="fade-up" data-aos-delay="0">Home</a>
+            <a href="#about" class="nav-link" data-aos="fade-up" data-aos-delay="100">About</a>
+            <a href="#education" class="nav-link" data-aos="fade-up" data-aos-delay="200">Education</a>
+            <a href="#experience" class="nav-link" data-aos="fade-up" data-aos-delay="300">Experience</a>
+            <a href="#skills" class="nav-link" data-aos="fade-up" data-aos-delay="400">Skills</a>
+            <a href="#contact" class="nav-link" data-aos="fade-up" data-aos-delay="500">Contact</a>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg text-white pt-32 pb-20 md:pt-40 md:pb-28" data-aos="fade-down">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm <span class="text-yellow-300">Farhan Hanafi</span></h1>
+                <h2 class="text-2xl md:text-3xl font-semibold mb-6">Web Developer & UI/UX Designer</h2>
+                <p class="text-lg mb-8 opacity-90">I create beautiful, functional websites with clean code and modern design principles.</p>
+                <div class="flex space-x-4">
+                    <a href="#contact" class="bg-white text-indigo-600 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition duration-300">Hire Me</a>
+                    <a href="#about" class="border-2 border-white text-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-indigo-600 transition duration-300">Learn More</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative w-64 h-64 md:w-80 md:h-80 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+                    <div class="absolute inset-0 border-4 border-white border-opacity-30 rounded-full animate-ping"></div>
+                    <img src="src/profil.png" alt="Farhan Hanafi" loading="lazy" class="w-56 h-56 md:w-72 md:h-72 rounded-full object-cover border-4 border-white">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16" data-aos="fade-down">About <span class="text-indigo-600">Me</span></h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-10 md:mb-0 flex justify-center">
+                    <img src="src/profil.png" alt="Farhan Hanafi" loading="lazy" class="w-64 h-64 rounded-full object-cover shadow-xl">
+                </div>
+                <div class="md:w-2/3 md:pl-12" data-aos="fade-down">
+                    <h3 class="text-2xl font-semibold mb-4">Personal Information</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                        <div>
+                            <p class="text-gray-600"><span class="font-medium text-gray-800">Full Name:</span> Farhan Hanafi</p>
+                            <p class="text-gray-600"><span class="font-medium text-gray-800">Birth:</span> Cilacap, 16 Juni</p>
+                            <p class="text-gray-600"><span class="font-medium text-gray-800">Gender:</span> Male</p>
+                        </div>
+                        <div>
+                            <p class="text-gray-600"><span class="font-medium text-gray-800">Address:</span> Cilacap, Jawa Tengah</p>
+                            <p class="text-gray-600"><span class="font-medium text-gray-800">Phone:</span> +62 882-1566-0319</p>
+                            <p class="text-gray-600"><span class="font-medium text-gray-800">Email:</span> farhanhanafi656@gmail.com</p>
+                            <p class="text-gray-600"><span class="font-medium text-gray-800">Status:</span> Single</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6">
+                        I'm a passionate web developer and designer with experience in creating modern, responsive websites. 
+                        Currently focusing on front-end development while expanding my back-end skills.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/frhndevweb" class="bg-indigo-600 text-white px-6 py-2 rounded-full font-medium hover:bg-indigo-700 transition duration-300 flex items-center">
+                            <i class="fab fa-github mr-2"></i> GitHub
+                        </a>
+                        <a href="https://instagram.com/hannaaffiii" class="bg-blue-600 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-700 transition duration-300 flex items-center">
+                            <i class="fab fa-instagram mr-2"></i> instagram
+                        </a>
+                        <a href="https://tiktok.com/@hannaaffiii" class="bg-blue-600 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-700 transition duration-300 flex items-center">
+                            <i class="fab fa-tiktok mr-2"></i> TikTok
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-gray-50" data-aos="fade-down">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">My <span class="text-indigo-600">Education</span></h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="relative">
+                    <!-- Timeline Item -->
+                    <div class="timeline-item relative pl-8 pb-8">
+                        <div class="absolute left-0 top-0 w-6 h-6 rounded-full bg-indigo-600 border-4 border-white shadow-md"></div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="text-xl font-semibold">SMK Fatahillah Cipari</h3>
+                                <span class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">2022 - 2025</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">Teknik Komputer dan Jaringan (TKJ)</p>
+                            <p class="text-gray-700">
+                                Focused on computer networking and hardware with additional coursework in web development fundamentals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-white" data-aos="fade-down">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Work <span class="text-indigo-600">Experience</span></h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="relative">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item relative pl-8 pb-8">
+                        <div class="absolute left-0 top-0 w-6 h-6 rounded-full bg-indigo-600 border-4 border-white shadow-md"></div>
+                        <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-indigo-600">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="text-xl font-semibold">PT Yuju Indonesia</h3>
+                                <span class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">Jun 2023 - Dec 2023</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">PKL (Praktik Kerja Lapangan)</p>
+                            <p class="text-gray-700">
+                                Gained practical experience in quality control processes and inventory management systems.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item relative pl-8">
+                        <div class="absolute left-0 top-0 w-6 h-6 rounded-full bg-indigo-600 border-4 border-white shadow-md"></div>
+                        <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-indigo-600">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="text-xl font-semibold">Freelance</h3>
+                                <span class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">2024 - Present</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">Web Designer</p>
+                            <p class="text-gray-700">
+                                Creating responsive websites for clients, focusing on clean design and user experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50" data-aos="fade-down">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">My <span class="text-indigo-600">Skills</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                <!-- Technical Skills -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-6 flex items-center">
+                        <i class="fas fa-code text-indigo-600 mr-3"></i> Technical Skills
+                    </h3>
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">HTML/CSS</span>
+                                <span class="text-gray-600">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">JavaScript</span>
+                                <span class="text-gray-600">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Professional Skills -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-6 flex items-center">
+                        <i class="fas fa-tools text-indigo-600 mr-3"></i> Professional Skills
+                    </h3>
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">GitHub</span>
+                                <span class="text-gray-600">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium">UI/UX Design</span>
+                                <span class="text-gray-600">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3 class="text-xl font-semibold mt-10 mb-6 flex items-center">
+                        <i class="fas fa-award text-indigo-600 mr-3"></i> Certifications
+                    </h3>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <p class="font-medium">Juara 3 LKS Cybersecurity tingkat kabupaten</p>
+                            <p class="text-sm text-gray-600">Feb 2025 - Dinas Pendidikan Kab. Cilacap</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <p class="font-medium">PKL di PT Yuju Indonesia</p>
+                            <p class="text-sm text-gray-600">2023</p>
+                        </div>
+                    </div>
+                    
+                    <h3 class="text-xl font-semibold mt-10 mb-6 flex items-center">
+                        <i class="fas fa-users text-indigo-600 mr-3"></i> Organizations
+                    </h3>
+                    <div class="bg-white p-4 rounded-lg shadow-sm">
+                        <p class="font-medium">OSIS SMK Fatahillah Cipari</p>
+                        <p class="text-sm text-gray-600">2023 - 2024 (Seksi Media)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white" data-aos="fade-down">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Get In <span class="text-indigo-600">Touch</span></h2>
+            <div class="max-w-4xl mx-auto bg-gray-50 rounded-xl shadow-lg overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 gradient-bg text-white p-10">
+                        <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <i class="fas fa-map-marker-alt mt-1 mr-4"></i>
+                                <div>
+                                    <h4 class="font-medium">Address</h4>
+                                    <p>Jl. Soekarno-Hatta No 2, RT 3 RW 5, Desa Cisuru, Kec. Cipari, Kab. Cilacap, Jawa Tengah</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-phone-alt mt-1 mr-4"></i>
+                                <div>
+                                    <h4 class="font-medium">Phone</h4>
+                                    <p>+62 882-1566-0319</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-envelope mt-1 mr-4"></i>
+                                <div>
+                                    <h4 class="font-medium">Email</h4>
+                                    <p>farhanhanafi656@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-10">
+                            <h4 class="font-medium mb-4">Follow Me</h4>
+                            <div class="flex space-x-4">
+                                <a href="https://instagram.com/hannaaffiii" class="w-10 h-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center hover:bg-opacity-30 transition duration-300">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://x.com/hannaaffiii" class="w-10 h-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center hover:bg-opacity-30 transition duration-300">
+                                    <i class="fab fa-x"></i>
+                                </a>
+                                <a href="https://tiktok.com/@hannaaffiii" class="w-10 h-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center hover:bg-opacity-30 transition duration-300">
+                                    <i class="fab fa-tiktok"></i>
+                                </a>
+                                <a href="https://github.com/frhndevweb" class="w-10 h-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center hover:bg-opacity-30 transition duration-300">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 p-10">
+                        <h3 class="text-2xl font-semibold mb-6">Send Me a Message</h3>
+                        <form>
+                            <div class="mb-6">
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Your name">
+                            </div>
+                            <div class="mb-6">
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Your email">
+                            </div>
+                            <div class="mb-6">
+                                <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                                <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Subject">
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Your message"></textarea>
+                            </div>
+                            <button type="submit" class="w-full gradient-bg text-white py-3 px-6 rounded-lg font-medium hover:opacity-90 transition duration-300">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="text-2xl font-bold text-indigo-400">Farhan Hanafi</a>
+                    <p class="mt-2 text-gray-400">Web Developer & UI/UX Designer</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="https://instagram.com/hannaaffiii" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com/hannaaffiii" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-x"></i>
+                    </a>
+                    <a href="https://tiktok.com/@hannaaffiii" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://github.com/frhndevweb" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Farhan Hanafi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          once: true
+      });
+    </script>
+</body>
+</html>
