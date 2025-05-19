@@ -6,8 +6,10 @@ Website ini merupakan _clone_ dari project utama yang dapat diakses di:
 
 > **⚠️ Note:**  
 > Kalau kamu ingin **versi project asli-nya** (yang full dan premium), silakan hubungi via WhatsApp:  
-> 📲 [https://wa.me/+6288215660319](https://wa.me/+6288215660319)  
+> 📲 [https://wa.me/+6288215660319](https://wa.me/+6288215660319)
+> 
 > ![Preview](src/thumbnail.jpg)
+> 
 > **Eits, tapi gak gratis yaa**, karena ini pure buatan sendiri — dari desain sampai fungsinya.
 
 ---
@@ -62,19 +64,6 @@ Website ini merupakan _clone_ dari project utama yang dapat diakses di:
    ```
 
 2. Buka `index.html` di browser favoritmu.
-
----
-
-## 🧠 Rencana Pengembangan
-
-- Integrasi form kontak via EmailJS atau Formspree
-- Mode gelap (dark mode)
-- Tambah halaman blog
-
----
-
-
-> ![Preview](src/thumbnail.jpg)
 
 ---
 
