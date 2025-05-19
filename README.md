@@ -8,7 +8,7 @@ Website ini merupakan _clone_ dari project utama yang dapat diakses di:
 > Kalau kamu ingin **versi project asli-nya** (yang full dan premium), silakan hubungi via WhatsApp:  
 > 📲 [https://wa.me/+6288215660319](https://wa.me/+6288215660319)
 > 
-
+> ![Preview](src/thumbnail.jpg)
 > 
 > **Eits, tapi gak gratis yaa**, karena ini pure buatan sendiri — dari desain sampai fungsinya.
 
